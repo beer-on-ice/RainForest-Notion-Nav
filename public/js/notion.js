@@ -15,7 +15,7 @@ fetch('/api/getDatabaseContent')
             // 创建卡片图像
             var image = document.createElement('img')
             image.className = 'card-image'
-            image.src = result.properties.Icons.files && result.properties.Icons.files[0] && result.properties.Icons.files[0].file && result.properties.Icons.files[0].file.url || ''
+            image.src = result.properties.Icons.files && result.properties.Icons.files[0] && result.properties.Icons.files[0].file && result.properties.Icons.files[0].file && result.properties.Icons.files[0].file.url || ''
             card.appendChild(image)
             // 创建卡片标题
             var title = document.createElement('h2')
