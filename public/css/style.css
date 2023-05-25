@@ -35,7 +35,6 @@ p {
 p > a {
 	font-size: 10px;
 	font-weight: 400;
-	color: var(--text-color);
 	line-height: 110%;
 }
 span {
