@@ -32,10 +32,11 @@ p {
 	color: var(--text-color);
 	line-height: 110%;
 }
-p > a {
+a.icp {
 	font-size: 10px;
 	font-weight: 400;
 	line-height: 110%;
+	color: var(--text-color) !important;
 }
 span {
 	display: block;
